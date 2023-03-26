@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta's -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta's de pesquisa -->
+        <meta name="author" content="Allunn">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <!-- Title & Apparence -->
+        <title>WEB API</title>
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        
+        <form method="get" action=".">
+            <h1 onclick="welcome()">API VIACEP</h1>
+
+                <label>Cep:
+                    <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                    onblur="pesquisacep(this.value);"/></label><br/>
+                <label>Rua:
+                    <input name="rua" type="text" id="rua" size="60"/></label><br/>
+                <label>Bairro:
+                    <input name="bairro" type="text" id="bairro" size="40"/></label><br/>
+                <label>Cidade:
+                    <input name="cidade" type="text" id="cidade" size="40"/></label><br/>
+                <label>Estado:
+                    <input name="uf" type="text" id="uf" size="2"/></label><br/>
+                <label>IBGE:
+                    <input name="ibge" type="text" id="ibge" size="8"/></label>           
+    
+
+            <input type="reset" Value="Reset" onclick="$('#cep').focus()">
+        </form>
+
+        <div id="cep-list"></div>
+
+        <article class="stage"></article>
+
+        <script src="js/script.js"></script>
+        <script src="js/cep.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="js/jquery.maskedinput.js"></script>
+        
+        <script>
+            $("#cep").mask("99999-999");
+        </script>
+
+    </body>
+</html>

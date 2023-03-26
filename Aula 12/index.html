@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta's -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Meta's de pesquisa -->
+        <meta name="author" content="Allunn">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        <!-- Title & Apparence -->
+        <title>Range</title>
+        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="" rel="stylesheet" integrity="" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <!-- Para navegar entre páginas e documentos-->
+        <button type="button" onclick="window.location.href='range2.html'">
+            Exemplo 2
+        </button>
+
+        <pre id="strophe">
+<i>I'm in serious shit, I feel totally lost
+If I'm asking for help it's only because
+Being with you has opened my eyes
+Could I ever believe such a perfect surprise?</i>
+        </pre>
+
+        <input type="range" id="zoom" min="6" max="36" value="14" orient="horizontal" step="2" list="tickmarks">
+
+        <datalist id="tickmarks">
+            <option value="6" label="Out"></option>
+            <option value="36" label="In"></option>
+        </datalist>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

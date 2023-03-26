@@ -1,0 +1,267 @@
+ .u-section-1 {
+  background-image: url("../images/Billie-Eilish-Wallpaper-Full-HD-1-1024x576.jpg");
+  background-position: 50% 0%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 609px;
+}
+
+.u-section-1 .u-text-1 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 470px auto 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 502px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 385px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 289px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 182px;
+  }
+} .u-section-2 {
+  background-image: url("../images/Samsung_Galaxy_Waves_Purple_Gradient_1366x768.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 553px;
+}
+
+.u-section-2 .u-text-1 {
+  font-family: Alata;
+  margin: 58px auto 0 116px;
+}
+
+.u-section-2 .u-text-2 {
+  font-family: Alata;
+  margin: -52px auto 0 667px;
+}
+
+.u-section-2 .u-text-3 {
+  font-size: 1.125rem;
+  margin: 42px 266px 0 auto;
+}
+
+.u-section-2 .u-slider-1 {
+  width: 440px;
+  min-height: 343px;
+  height: auto;
+  margin: -251px auto 58px 116px;
+}
+
+.u-section-2 .u-carousel-indicators-1 {
+  position: absolute;
+  bottom: 10px;
+  width: auto;
+  height: auto;
+}
+
+.u-section-2 .u-image-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/71laVfWEkCS._AC_SL1400_.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px 0;
+}
+
+.u-section-2 .u-text-4 {
+  margin: 0 auto;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-2 .u-image-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../images/when_we_all_fall_asleep_crop1553877437166.jpg_423682103.png");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 30px 60px;
+}
+
+.u-section-2 .u-text-5 {
+  margin: 0 25px;
+}
+
+.u-section-2 .u-image-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../images/billie-eilish-ladder.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 0;
+}
+
+.u-section-2 .u-text-6 {
+  margin: 274px auto 0;
+}
+
+.u-section-2 .u-carousel-control-1 {
+  width: 99px;
+  height: 99px;
+  left: -58px;
+  position: absolute;
+  right: auto;
+}
+
+.u-section-2 .u-carousel-control-2 {
+  width: 99px;
+  height: 99px;
+  left: auto;
+  position: absolute;
+  right: -57px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 613px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 75px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 509px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-left: 518px;
+  }
+
+  .u-section-2 .u-slider-1 {
+    margin-left: 75px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-1 {
+    margin-left: 57px;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 362px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-right: 204px;
+    margin-left: 369px;
+  }
+
+  .u-section-2 .u-slider-1 {
+    width: 606px;
+    min-height: 440px;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-2 {
+    margin-left: 272px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-right: 153px;
+    margin-left: 277px;
+  }
+
+  .u-section-2 .u-slider-1 {
+    min-height: 410px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 171px;
+  }
+
+  .u-section-2 .u-text-3 {
+    margin-right: 96px;
+    margin-left: 174px;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 862px;
+}
+
+.u-section-3 .u-text-1 {
+  margin: 58px 546px 0 0;
+}
+
+.u-section-3 .u-text-2 {
+  font-size: 1.125rem;
+  margin: -652px 28px 36px 697px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-text-1 {
+    margin-right: 346px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-right: 0;
+    margin-left: 525px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-text-1 {
+    margin-right: 126px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 305px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 125px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-text-2 {
+    margin-left: 0;
+  }
+}

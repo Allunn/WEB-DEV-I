@@ -1,0 +1,24 @@
+#login-box {
+
+    background-color: rgba(91, 21, 100, 0.24);
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+
+body {
+
+    background-color: rgba(131, 0, 148, 0.699);
+    
+
+};

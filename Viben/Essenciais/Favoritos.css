@@ -1,0 +1,53 @@
+ .u-section-1 {
+  background-image: url("../images/Samsung_Galaxy_Waves_Purple_Gradient_1366x768.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 750px;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Alata;
+  font-size: 3.75rem;
+  margin: 261px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-family: Alata;
+  font-size: 1.125rem;
+  margin: 20px auto 60px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 618px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 473px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 355px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 224px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+  }
+}

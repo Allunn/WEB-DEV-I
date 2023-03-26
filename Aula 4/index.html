@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title & Aparence -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/Icon.png" type="image/x-icon">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <h1>FORMULÁRIO HTML</h1>
+        
+        <hr><br>
+        
+        <label for="id_text">Text</label>
+        <br>
+        <input type="text" name="text" id="id_text" required maxlength="10" minlength="3" placeholder="Digite aqui">
+        <br>
+        <small>Insere um texto genérico</small>
+
+        <br><br><hr><br>
+    
+        <label for="id_number">Number</label>
+        <br>
+        <input type="number" name="number" id="id_number" required max="20" min="3" step="0.1" placeholder="Digite aqui">
+        <br>
+        <small>Insere um números apenas</small>
+
+        <br><br><hr>
+
+        <label for="id_email">Email</label>
+        <br>
+        <input type="email" name="email" id="id_email" required max="20" placeholder="exemplo@gmail.com">
+        <br>
+        <small>Insere um e-mail (necessita informar domínio)</small>
+
+        <br><br><hr><br>
+
+        <label for="id_password">Passaword</label>
+        <br>
+        <input type="password" name="password" id="id_password" required max="20" placeholder="insira sua senha">
+        <br>
+        <small>Insere texto escondido por pontos</small>
+
+        <br><br><hr><br>
+
+        <small>Para confirmar que é você mesmo...</small>
+        <dl>
+            <p>Nome do primeiro animal de estimação?</p>
+            <dd>    
+                <input type="radio" name="radio" id="id_radio1">
+                <label for="id_radio1">Rex</label>
+            </dd>
+            <dd>
+                <input type="radio" name="radio" id="id_radio2">
+                <label for="id_radio2">Paçoca</label>
+            </dd>
+            <dd>
+                <input type="radio" name="radio" id="id_radio3">
+                <label for="id_radio3">Pipoca</label>
+            </dd>
+            <dd>
+                <input type="radio" name="radio" id="id_radio4">
+                <label for="id_radio4">Fred</label>
+            </dd>
+            <small>Radio serve para marcar apenas um item de uma lista</small>
+        </dl>
+
+        <dl>
+            <p>Quais são seus hobbies</p>
+            <dd>    
+                <input type="checkbox" name="checkbox" id="id_checkbox1">
+                <label for="id_checkbox1">Futebol</label>
+            </dd>
+            <dd>
+                <input type="checkbox" name="checkbox" id="id_checkbox2">
+                <label for="id_checkbox2">Xadrez</label>
+            </dd>
+            <dd>
+                <input type="checkbox" name="checkbox" id="id_checkbox3">
+                <label for="id_checkbox3">Desenhar</label>
+            </dd>
+            <dd>
+                <input type="checkbox" name="checkbox" id="id_checkbox4">
+                <label for="id_checkbox4">Assistir séries</label>
+            </dd>
+            <small>Checkbox, ao contrário do radio, marca mais de um item na lista</small>
+        </dl>
+        
+        <br><hr><br>
+
+        <d1>
+            <dd>
+                <label for="id_date">Date</label>
+                <br>
+                <input type="date" name="date" id="id_date">
+                <small>Insere uma data por meio do calendário</small>
+            </dd>
+        
+            <dd>    
+                <label for="id|_time">Time</label>
+                <br>
+                <input type="time" name="time" id="id_time">
+                <small>Insere um horário</small>
+            </dd>
+
+            <dd>    
+                <label for="id_datetime-local">Date-Time</label>
+                <br>
+                <input type="datetime-local" name="datetime-local" id="id_datetime-local">
+                <small>Insere uma data por meio do calendário, horas e minutos</small>
+            </dd>
+        </d1>
+
+        <br><br><hr><br>
+
+        <label for="id_color">Color</label>
+        <br>
+        <input type="color" name="color" id="id_color">
+        <br>
+        <small>Insere uma cor</small>
+
+        <br><br><hr><br>
+
+        <label for="id_file">File</label>
+        <br>
+        <input type="file" name="file" id="id_file">
+        <br>
+        <small>Insere um arquivo</small>
+
+        <br><br><hr><br>
+
+        <label for="id_range">Range</label>
+        <br>
+        <input type="range" name="range" id="id_range" min="0" max="100" step="5">
+        <br>
+        <small>Permite selecionarmos determinado valor por meio de uma barra</small>
+
+        <br><br><hr><br>
+
+        <label for="id_tel">Tel</label>
+        <br>
+        <input type="tel" name="tel" id="id_tel" pattern="[0-9]{2}-[0-9]{01}-[0-9]{4}-[0-9]{4}" Title="##-#.####.####">
+        <br>
+        <small>Permite inserir um número de telefone e é possível informar um padrão de entrada por meio de expressão regular</small>
+
+        <br><br><hr><br>
+
+        <label for="id_hidden">Hidden</label>
+        <br>
+        <input type="hidden" name="hidden" id="id_hidden">
+        <br>
+        <small>Cria uma caixa de entrada escondida</small>
+
+        <br><br><hr>
+
+        <input type="submit" value="Enviar">
+        <small>Botão para submeter/Enviar os dadsos dos inputs para a action informada no form</small>
+
+        <br><br>
+
+        <input type="reset" value="Limpar dados">
+        <!-- Abaixo, exemplo com o comando "button" -->
+        <!-- <button type="reset">Limpar dados<button> -->
+        <small>Botão para limpar os dados inseridos nos inputs</small>
+
+        <br>
+
+        <d1>
+            <dd>    
+                <input type="checkbox" name="checkbox" id="id_checkbox1">
+                <label for="id_checkbox1"><h2>Você concorda com as diretrizes do site?</h2></label>
+            </dd>
+            <dd>
+                <input type="checkbox" name="checkbox" id="id_checkbox2" checked>
+                <label for="id_checkbox2"><h2>Você concorda em receber e-mails com promoções e novidades?</h2></label>
+            </dd>
+        </d1>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+h1{
+    font-size: 30px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+    text-align: center;
+}
+h2{
+    font-size: 12px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 32, 29);
+}   
+label {
+    font-size: 15px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(192, 23, 23)
+}
+small {
+    font-size: 11px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    word-spacing: -2px;
+    letter-spacing: -1px;
+}
